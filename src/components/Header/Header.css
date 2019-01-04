@@ -1,0 +1,47 @@
+.Header {
+  width: 100%;
+  height: 100px;
+
+  background-color: #ab2a19;
+
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.Header > img {
+  width: 50px;
+  position: absolute;
+  top: 25px;
+  left: 75px;
+}
+
+.Header > h1 {
+  margin: 0;
+  position: absolute;
+  top: 25px;
+  left: 150px;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Header > nav {
+  height: auto;
+  width: 270px;
+  position: absolute;
+  top: 32px;
+  left: 350px;
+  display: flex;
+}
+
+.Header a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 12px;
+  margin-left: 5px;
+  background-color: #ed6b5a;
+  color: #000;
+  border-radius: 5px;
+}

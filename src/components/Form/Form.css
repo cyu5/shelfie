@@ -1,0 +1,50 @@
+.Form {
+  width: 450px;
+  height: 525px;
+  padding: 15px;
+  margin: 100px auto;
+  border-radius: 7px;
+  background-color: #3ad886;
+  font-size: 1.25rem;
+  text-align: left;
+}
+
+.Form p {
+  margin: 7px 0;
+}
+
+.Form > img {
+  display: block;
+  margin: 7px auto;
+  width: 320px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.Form > input {
+  width: 100%;
+}
+
+.Form .form-btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.Form button {
+  padding: 10px;
+
+  margin: 5px 10px;
+
+  background-color: #ed6b5a;
+
+  border-radius: 7px;
+
+  border: none;
+
+  font-family: Open Sans, sans-serif;
+
+  font-weight: 700;
+
+  font-size: 16px;
+}

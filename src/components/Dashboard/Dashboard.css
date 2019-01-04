@@ -1,0 +1,5 @@
+.Dashboard {
+  margin: 200px auto;
+  display: flex;
+  flex-flow: column;
+}
